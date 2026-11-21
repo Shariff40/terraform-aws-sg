@@ -1,14 +1,14 @@
 variable "project" {
-    default 
+    default = "roboshop"
 }
 
 variable "environment" {
-    default 
+    default = "dev"
 }
 
-variable "sg_name" {
-    default 
-}
+# variable "sg_name" {
+#     default 
+# }
 
 variable "sg_tags" {
     type = map

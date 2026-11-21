@@ -6,9 +6,9 @@ variable "environment" {
     default = "dev"
 }
 
-# variable "sg_name" {
-#     default 
-# }
+variable "sg_name" {
+    type = string 
+}
 
 variable "sg_tags" {
     type = map
